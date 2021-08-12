@@ -20,21 +20,11 @@
         <![endif]-->
         <h1 align= "center" style="colour: blue">Twitter</h1>
         <div class="container">
-            <form method="POST">
-                {%csrf_token%}
-                <fieldset class="form-group">
-                    <legend class="border-bottom mb--4"> Login</legend>
-                    {{form}}
-                </fieldset>
-                <br>
-                <br>
-                <div class= "form-group">
-                    <button class = "btn btn-outline-info" type="submit">Login</button>
-                </div>
-                <br>
-                <br>
-                <a href="{% url 'register' %}"><p>Create a new account</p></a>
-            </form>    
+         
+                
+                <h4>Logged Out!!</h4>
+                <a href="{%  url 'login' %}"><p>Click here to login</p></a>
+               
         </div>
         {% comment %} <script src="" async defer></script> {% endcomment %}
     </body>

@@ -17,3 +17,5 @@ def register(request):
         form=RegisterForm()
     return render(request,'accounts/register.html',{'form':form})
     
+def profile(request):
+    return render(request,'accounts/profile.html')   #rendering the profile template 
