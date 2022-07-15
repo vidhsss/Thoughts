@@ -1,2 +1,2 @@
 # THOUGHTS
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/vidhsss/twitter-clone/blob/master/Home.png.png)
