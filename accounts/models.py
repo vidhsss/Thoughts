@@ -9,4 +9,4 @@ class profile(models.Model):
     bio=models.TextField(default='')
 
     def _str_(self): 
-        return f'(self.user.username)'
+        return f'{self.user.username}'

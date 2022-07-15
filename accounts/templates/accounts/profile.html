@@ -1,10 +1,18 @@
-{% extends 'base.html' %}
+{% extends 'feed/base.html' %}
 
 {%block content %}
     <div class ='container'>
-        <div class =col-sm-2>
+        <div class ="col-sm-2">
             <div class= "media">
-                <img src="rounded-circle account-img img-fluid" src = "{{user.profile.image.url}}">
+                <img class="rounded-circle account-img img-fluid" src = "{{user.profile.image.url}}">
             </div>
-    
+        </div>
+        <br>
+        <h3>{{user.username}}</h3>
+        <br><br>
+        <div class="card">
+            <div class="card-body">
+                {{user.profile.bidy}}
+        </div>
+
 {%endblock content %}
