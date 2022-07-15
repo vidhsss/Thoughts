@@ -13,11 +13,8 @@
         </div>
         <div class="card-body">
             {% comment %} <h5 class="card-title">#{{tweet.name}}</h5> {% endcomment %}
-            <p class="card-text"> Hi This is Anushka Jain. I just wanted to share just a thought: <br> Existence is the end of endless eternity without a beginning or an end <br> Endlessness, a very strange idea, having the end yet meaning the quite opposite. 
-                <br> The endless thoughts, worries and anxiousness keeps us awake all night!
-                <br> The endless hope and positively let’s us rise and move forward inspite of any odds!
-                <br> The Endless sadness we feel when something goes wrong or the eternal happiness when something goes according to our plan! </p>
-            <a href="#" class="btn btn-primary">LIKE</a>
+            <p class="card-text"> {{tweet.text}}</p>
+            {% comment %} <a href="#" class="btn btn-primary"></a> {% endcomment %}
         </div>
        
     {% endfor %}
