@@ -9,3 +9,6 @@ Login:
 
 Register:
 ![alt text](https://github.com/vidhsss/twitter-clone/blob/master/register.png)
+
+
+Tech stack: Django, html with bootstrap
